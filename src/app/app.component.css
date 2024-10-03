@@ -1,0 +1,86 @@
+.confession-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ee9ca7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    color: #2c3e50;
+    font-size: 36px;
+  }
+  
+  .confession-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    color: #34495e;
+    font-size: 18px;
+  }
+  
+  .subtitle {
+    color: #2980b9;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .reasons-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reasons-list li {
+    cursor: pointer;
+    background: #c8717d;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  .reasons-list li:hover{
+    background-color: #c47d86;
+  }
+  .confessions {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+  }
+  
+  .confessions p {
+    font-style: italic;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+  
+  .confession-form {
+    margin-top: 20px;
+  }
+  
+  .confession-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #2980b9;
+  }
+  
